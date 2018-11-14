@@ -1,5 +1,5 @@
 {:paths ["resources" "src"]
- :deps {}
+ :deps {org.clojure/clojure.specs.alpha-2 {:local/root "libs/spec-alpha2-0.2.177-SNAPSHOT.jar"}}
  :aliases
  {:test {:extra-paths ["test"]
          :extra-deps {org.clojure/clojure {:mvn/version "1.10.0-beta5"}

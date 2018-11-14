@@ -1,7 +1,7 @@
 (ns speculative.specs
   "Primitive specs"
   (:refer-clojure :exclude [seqable? reduceable?])
-  (:require [clojure.spec.alpha :as s]
+  (:require [clojure.spec-alpha2 :as s]
             [clojure.spec.gen.alpha :as gen]
             #?(:cljs [goog.string])))
 
